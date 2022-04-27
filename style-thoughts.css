@@ -1,0 +1,374 @@
+html {
+	font-family: Questa;
+}
+
+title {
+	font-size: arial;
+}
+
+body {
+	margin: 0px;
+	background-color: rgb(0, 0, 0);
+
+}
+
+.everything {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	
+	opacity: 0.6;
+
+	background-image: url(bg/5.png);
+	background-size: cover;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.greeting {
+	margin: 40px 0;
+	padding: 10px 30px;
+	font-size: 50px;
+	color: white;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.nav-bar {
+	/* padding: 0 20px 0 20px;  */
+	background-color: rgba(255, 255, 255, 0);
+	backdrop-filter: blur(5px);
+	/* padding: 10px; */
+	/* position: fixed; */
+	width: 100%;
+	display: flex;
+	/* line-height: 1em; */
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo-container {
+	height: 100%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.logo-container > .element {
+	margin-right: 20px;
+	line-height: 2em;
+	display: inline-block;
+	text-align: center;
+	font-size: large;
+	color: rgb(173, 215, 255);
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+.logo-container > .element:hover {
+
+	color: rgb(29, 95, 172);
+	background-color: #fff;
+}
+
+
+/* .logo {
+	width: 40px;
+	height: 40px;
+} */
+
+.logo {
+	filter: brightness(1);
+	width: 40px;
+	height: 40px;
+	transition: all 0.8s;
+}
+
+.logo:hover{
+	filter: brightness(0.8);
+}
+
+.portion {
+	justify-content: space-between;
+	align-items: center;
+	width: 85%;
+	display: flex;
+}
+
+
+/* .nav-bar > .bg {
+	background-color: #fff;
+	background-color: rgba(0,0,0,0.15);
+	backdrop-filter: blur(10px);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+} */
+
+.nav-hrefs {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	/* line-height: 2em; */
+	text-decoration: none;
+}
+
+.nav-hrefs > .element {
+	line-height: 2em;
+	display: inline-block;
+	text-align: center;
+	font-size: large;
+	color: rgb(173, 215, 255);
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+.nav-hrefs > .element:hover {
+	color:rgb(29, 95, 172);
+	text-decoration: underline;
+	background-color: #ffffff;
+	transition: background-color 3s cubic 3s;
+}
+
+.nar-bar > .about {
+	float: right;
+}
+
+.main {
+	background-color: transparent;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.intro {
+	padding: 20px 150px;
+}
+
+.me {
+	line-height: 2.5em;
+	color: white;
+}
+
+.footnote {
+	color: #f4eccd;
+	font-size: 30px;
+	line-height: 1em;
+	margin: 20px 0;
+}
+
+.links {
+	background-color: rgb(5, 44, 88);
+	padding: 50px 0;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.layout {
+	
+	align-items: center;
+	margin: 40px 0;
+	font-size: larger;
+	
+}
+
+.entries {
+	/* font-family: "latin-fonts"; */
+	padding-bottom: 20px;
+}
+
+.entry {
+	margin: 20px 20%;
+}
+
+.entry > .date {
+	color: white;
+	text-align: left;
+	border-bottom: white 2px solid;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font-size: large;
+}
+
+.entry img {
+	width: 80%;
+	height: auto;
+}
+
+.note {
+	outline: none;
+	margin: 0 10%;
+	text-align: left;
+
+	background-color: #ff9c3f;
+	
+}
+
+.note:hover {
+	margin: 0 10%;
+	text-align: left;
+	background-color: #ffc58f;
+}
+
+.note > .collapsible {
+	font-family: inherit;
+	padding: 12px 12px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color:rgb(255, 255, 255);
+	cursor: pointer;
+	align-items: center;
+	font-size: 15px;
+}
+
+.story {
+	display: none;
+	padding: 12px 12px;
+	background-color: rgb(80, 80, 80);
+	font-size: 10px;
+	color: white;
+}
+
+.story a {
+	text-decoration: none;
+	color: white;
+}
+
+.story a:hover {
+	text-decoration: underline;
+}
+
+.story span {
+	color: antiquewhite;
+}
+
+/* .note > .right {
+	font-size: large;
+	float: right;
+	display: inline;
+	line-height: inherit;
+} */
+
+
+
+.bottom {
+	background-color: #ffffff;
+	position: relative;
+	overflow: hidden;
+}
+
+.bottom > .bg {
+	background-image: url(bg/3.jpg);
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+}
+
+.bottom > .text {
+	position: relative;
+	text-align: center;
+	padding: 20px;
+}
+
+.index {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	width: 25%;
+	display: inline-block;
+	text-align: left;
+}
+
+.panel {
+	margin-left: calc(40%);
+	width: 45%;
+	display: inline-block;
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	margin-left: 30px;
+	background-color: rgb(19, 78, 102);
+	padding: 20px;
+}
+
+.building-stabler {
+	padding: 40px 0;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.building-stabler img {
+	height: 100px;
+	width: 100px;
+	float: left;
+	padding-right: 5px;
+	border-right: white 5px solid;
+}
+
+.content > .bg {
+	/* z-index: -1; */
+	background-image: url(bg/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.building-stabler .two-lines {
+	font-size: x-large;
+	color: white;
+	float: left;
+	margin-left: 5px;
+}
+
+@font-face {
+	font-family: Questa;
+	src: url(fonts/2-Questa_Regular.otf);
+}
